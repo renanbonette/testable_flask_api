@@ -24,4 +24,12 @@ flask_script
 
 ### Installing
 
-
+Clonar o Repositório
+cd testable_flask_api/
+virtualenv venv\
+source venv/bin/activate
+pip install -r requirements.txt
+Criar o banco 'teste_tbl para rodar os testes
+Criar o banco 'falsk_api' para rodar a aplicação
+python test_bucketlist.py
+python run.py
