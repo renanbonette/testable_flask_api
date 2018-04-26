@@ -29,6 +29,11 @@ Clonar o Repositório
 cd testable_flask_api/
 virtualenv venv\
 source venv/bin/activate
+python manage.py db init
+createdb test_db
+createdb flask_api
+python manage.py db migrate
+python manage.py db upgrade
 pip install -r requirements.txt
 Criar o banco 'teste_tbl para rodar os testes
 Criar o banco 'falsk_api' para rodar a aplicação
